@@ -1,0 +1,38 @@
+# Data directories
+data/
+outputs/
+results/
+*.nii
+*.nii.gz
+*.dcm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+slurm-*.out
+
+# Temporary
+temp/
+tmp/
+.tmp/
+
+# Model weights
+.totalsegmentator/
+models/
