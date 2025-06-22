@@ -279,7 +279,7 @@ If you use MyoAnalyzer in your research, please cite:
 
 ## Acknowledgments
 
-- **TotalSegmentator**: Wasserthal et al. for providing pre-trained segmentation models
+- **TotalSegmentator**: https://pubs.rsna.org/doi/10.1148/ryai.230024
 - **MyoSegmenTUM Dataset**: Technical University of Munich for validation data
 
 
