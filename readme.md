@@ -258,7 +258,7 @@ sbatch slurm_scripts/run_streamlit.slurm
 
 ### Recommended Configuration
 - **RAM**: 16GB+
-- **GPU**: NVIDIA RTX 4060 or better (8GB+ VRAM)
+- **GPU**: NVIDIA RTX 3080 or better (8GB+ VRAM)
 - **Storage**: SSD with 50GB+ free space
 - **CPU**: Multi-core processor (4+ cores)
 
