@@ -359,18 +359,4 @@ If you use MyoAnalyzer in your research, please cite:
 - **Documentation**: [Project Wiki](https://github.com/yourusername/myoanalyzer/wiki)
 - **Clinical Questions**: Contact research team for clinical validation data
 
-## Roadmap
-
-### Version 2.0 (Planned)
-- [ ] Multi-site validation across 5+ institutions
-- [ ] Additional muscle groups (calf, upper extremity)
-- [ ] Real-time quality control dashboards
-- [ ] Advanced longitudinal analysis tools
-- [ ] Clinical trial integration APIs
-
-### Recent Updates (v1.1)
-- [x] REDCap integration for clinical workflows
-- [x] PHI anonymization and privacy compliance
-- [x] Enhanced quality control and flagging
-- [x] SLURM cluster deployment support
-- [x] Improved error handling and logging
+gging
