@@ -310,30 +310,11 @@ pip install -e .
 pytest tests/ --cov=muscle_pipeline
 ```
 
-### Code Standards
-- **Formatting**: Black code formatting required
-- **Type Hints**: All functions must include type annotations  
-- **Documentation**: Docstrings required for public functions
-- **Testing**: Pytest with >90% coverage
-- **Clinical Compliance**: PHI handling and audit trail requirements
-
 ## License and Citation
 
 ### License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-### Citation
-If you use MyoAnalyzer in your research, please cite:
-
-```bibtex
-@software{myoanalyzer2024,
-  title={MyoAnalyzer: Automated Dixon Fat-Water MRI Analysis for Neuromuscular Biomarker Discovery},
-  author={Dheeraj Puthiya Veedu},
-  year={2024},
-  url={https://github.com/yourusername/myoanalyzer},
-  note={Clinical-ready pipeline with REDCap integration}
-}
-```
 
 ### Dataset Citation
 ```bibtex
@@ -346,17 +327,3 @@ If you use MyoAnalyzer in your research, please cite:
 }
 ```
 
-## Acknowledgments
-
-- **TotalSegmentator**: Wasserthal et al. for pre-trained segmentation models ([RSNA AI Journal](https://pubs.rsna.org/doi/10.1148/ryai.230024))
-- **MyoSegmenTUM Dataset**: Technical University of Munich for validation data
-- **Clinical Workflow**: REDCap Consortium for data management standards
-- **HPC Support**: University of Pittsburgh Center for Research Computing
-
-## Contact and Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/myoanalyzer/issues)
-- **Documentation**: [Project Wiki](https://github.com/yourusername/myoanalyzer/wiki)
-- **Clinical Questions**: Contact research team for clinical validation data
-
-gging
