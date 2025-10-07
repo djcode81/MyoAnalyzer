@@ -1,8 +1,3 @@
-"""
-MyoAnalyzer: Muscle Composition Quantifier
-Clean Streamlit Interface - Researcher Focused
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -16,10 +11,10 @@ import sys
 from datetime import datetime
 import time
 
-# Add muscle_pipeline to path
+
 sys.path.append(str(Path(__file__).parent / 'muscle_pipeline' / 'src'))
 
-# Import analyzer classes
+
 try:
     from muscle_analyzer import MuscleAnalyzer
     ANALYZERS_AVAILABLE = True
@@ -163,7 +158,6 @@ def upload_and_analyze_section():
     st.markdown('</div>', unsafe_allow_html=True)
 
 def run_analysis(fat_file, water_file, confidence_threshold, use_gpu):
-    """Run the actual muscle analysis"""
     
     # Clear previous results
     st.session_state.analysis_complete = False
